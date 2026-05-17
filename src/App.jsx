@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Services from "./components/Services";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
@@ -12,6 +13,7 @@ function App() {
     <main className="bg-[#0a0a0a] text-white">
       <Navbar />
       <Hero />
+      <Services />
       <About />
       <Skills />
       <Projects />
