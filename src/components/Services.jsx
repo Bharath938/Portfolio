@@ -24,7 +24,7 @@ function Services() {
   ];
 
   return (
-    <div className="flex flex-col mt-8">
+    <div className="flex flex-col mt-32">
       <div className="flex flex-col justify-center items-center">
         <span className="text-4xl">What I Do</span>
         <span className="text-green-500">My Services</span>
