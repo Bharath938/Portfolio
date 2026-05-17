@@ -11,8 +11,8 @@ function App() {
   return (
     <main className="bg-[#0a0a0a] text-white">
       <Navbar />
-      <About />
       <Hero />
+      <About />
       <Skills />
       <Projects />
       <Contact />
