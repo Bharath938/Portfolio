@@ -3,7 +3,7 @@ import profile from "../assets/profile.png";
 
 function Hero() {
   return (
-    <div className="flex justify-around items-center mt-16">
+    <div className="flex flex-col md:flex-row justify-center space-x-52 align-center items-center mt-16">
       <div className="flex flex-col gap-4">
         <span>Hello I am</span>
         <span>Bharath Kumar</span>
