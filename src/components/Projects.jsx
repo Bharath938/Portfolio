@@ -21,13 +21,13 @@ function Projects() {
   ];
   return (
     <div>
-      <div className="flex flex-col mt-32">
+      <div className="flex flex-col mt-8">
         <div className="flex flex-col justify-center items-center">
           <span className="text-4xl">Projects</span>
           <span className="text-green-500">My Work</span>
         </div>
 
-        <div className="flex flex-col justify-center gap-4 items-center md:flex-row mt-32">
+        <div className="flex flex-col justify-center gap-4 items-center md:flex-row mt-8">
           {projects?.map((project) => (
             <div className="flex flex-col space-y-2 p-8 rounded-2xl bg-[#1a1a2e]">
               <span className="text-6xl">{project.image}</span>

@@ -7,12 +7,12 @@ function Navbar() {
         <span className="text-2xl">BHARATH KUMAR</span>
       </div>
       <div>
-        <ul className="flex gap-4">
+        <ul className="flex items-center gap-4">
           <li>Home</li>
-          <li>About Me</li>
+          <li><a href="#about">About</a></li>
           <li>Projects</li>
           <li>Skills</li>
-          <li className="bg-green-500 p-2 rounded">Contact Me</li>
+          <li className="bg-green-500 p-2 rounded"><a href="#contact">Contact Me</a></li>
         </ul>
       </div>
     </div>

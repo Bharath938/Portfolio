@@ -3,14 +3,14 @@ import profile from "../assets/profile.png";
 
 function Hero() {
   return (
-    <div className="flex flex-col md:flex-row justify-center space-x-52 align-center items-center mt-16">
+    <div className="flex flex-col md:flex-row justify-center items-center mt-16 gap-32">
       <div className="flex flex-col gap-4">
         <span>Hello I am</span>
         <span>Bharath Kumar</span>
         <span className="text-green-500">I am a web developer</span>
         <p>I can create responsive web applications</p>
         <button className="bg-green-500 rounded-2xl p-2 w-32 cursor-pointer">
-          Contact Me
+          <a href="#contact">Contact Me</a>
         </button>
       </div>
 
@@ -39,6 +39,7 @@ function Hero() {
         </div>
       </div>
     </div>
+
   );
 }
 

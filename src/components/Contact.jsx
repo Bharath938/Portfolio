@@ -23,14 +23,14 @@ function Contact() {
     },
   ];
   return (
-    <div>
-      <div className="flex flex-col mt-32">
+    <div id="contact">
+      <div className="flex flex-col mt-8">
         <div className="flex flex-col justify-center items-center">
           <span className="text-4xl">Contact</span>
           <span className="text-green-500">Get In Touch</span>
         </div>
 
-        <div className="flex flex-col justify-center gap-4 items-center md:flex-row mt-32">
+        <div className="flex flex-col justify-center gap-4 items-center md:flex-row mt-8">
           {contacts?.map((contact) => (
             <div className="flex flex-col space-y-2 p-8 rounded-2xl bg-[#1a1a2e] text-center items-center">
               <span className="text-2xl text-green-500">{contact.icon}</span>
